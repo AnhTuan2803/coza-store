@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoping Cart</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/shoping-cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+
+<body>
+    <div>
+        <div id="alll">
+            <header class="header">
+                <div class="header_top">
+                    <div class=" header-top-sp h-full">
+                        <div class="sup-header-top">
+                            <p>Website Designed by Pham Tuan</p>
+                        </div>
+                        <div class="list-header-top">
+                            <a href="">Help & FAQs</a>
+                            <a href="">My Account</a>
+                            <a href="">EN</a>
+                            <a href="">USD</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end header-top -->
+                <nav id="nav" class="menu ">
+                    <div class="sub-menu">
+                        <div class="flex">
+                            <div class="logo">
+                                <a href="./index.html"><img src="./src/img/asset 0.webp" alt="" /></a>
+                            </div>
+                            <div class="list-menu">
+                                <ul class="flex m-0">
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./product.html">Shop</a></li>
+                                    <li><a class="text-blue" href="./shoping-cart.html">Features</a></li>
+                                    <li><a href="./blog.html">Blog</a></li>
+                                    <li><a href="./about.html">About</a></li>
+                                    <li><a href="./contact.html">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex list-icon-menu">
+                            <div class="icon-menu">
+                                <a href=""><i class="fa-solid fa-magnifying-glass"></i>
+                                    <span></span>
+                                </a>
+                            </div>
+                            <div class="icon-menu">
+                                <a href=""><i class="fa-solid fa-cart-shopping"></i>
+                                </a>
+                            </div>
+                            <div class="icon-menu">
+                                <a href=""><i class="fa-solid fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="sub-dark-sun">
+                                <button id="dark-sun"><i class="fa-solid fa-sun"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <!-- end menu -->
+            </header>
+            <div>
+                <div class="product-detail">
+                    <div class="category-list">
+                        <a href="">Home<i class="fa-solid fa-angle-right"></i></a>
+                        <p>Shoping Cart</p>
+                    </div>
+                    <!-- end category list -->
+                    <form class="pt-75 pb-85">
+                        <div class="row">
+                            <div class="sub-row-1">
+                                <div class="bor-l bor-r">
+                                    <table class="table-shoping-cart">
+                                        <tr class="table-head">
+                                            <th class="column-1">
+                                                Product
+                                            </th>
+                                            <th class="column-2"></th>
+                                            <th class="column-3">Price</th>
+                                            <th class="column-4">Quantity</th>
+                                            <th class="column-5">Total</th>
+                                        </tr>
+                                        <tr class="table-row bor-b">
+                                            <td class="column-1">
+                                                <div class="how-itemcart1"><img src="./src/img/download (1).webp"
+                                                        alt=""></div>
+                                            </td>
+                                            <td class="column-2">Fresh Strawberries</td>
+                                            <td class="column-3">$ 36.00</td>
+                                            <td class="column-4">
+                                                <div style="margin-left: 18px;" class="more-erase">
+                                                    <div class="erase"><i class="fa-solid fa-minus"></i></div>
+                                                    <input type="text" value="1">
+                                                    <div class="more"><i class="fa-solid fa-plus"></i></div>
+                                                </div>
+                                            </td>
+                                            <td class="column-5">$ 36.00</td>
+                                        </tr>
+                                        <tr class="table-row">
+                                            <td class="column-1">
+                                                <div class="how-itemcart1"><img src="./src/img/download (2).webp"
+                                                        alt=""></div>
+                                            </td>
+                                            <td class="column-2">Lightweight Jacket</td>
+                                            <td class="column-3">$ 16.00</td>
+                                            <td class="column-4">
+                                                <div style="margin-left: 18px;" class="more-erase">
+                                                    <div class="erase"><i class="fa-solid fa-minus"></i></div>
+                                                    <input type="text" value="1">
+                                                    <div class="more"><i class="fa-solid fa-plus"></i></div>
+                                                </div>
+                                            </td>
+                                            <td class="column-5">$ 16.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="bor1 flex-sb plr-40 ptb-20">
+                                    <div class="flex align-center"><input class="input-coupon" type="text"
+                                            placeholder="Coupon Code">
+                                        <div class="update-cart">Apply coupon</div>
+                                    </div>
+
+                                    <div class="update-cart">
+                                        Update Cart</div>
+                                </div>
+                            </div>
+                            <div class="sub-row-2">
+                                <div class="bor1 ml-50 mb-50 pt-30 pb-40 pl-40 pr-40">
+                                    <h3 class="h3">Cart Totals</h3>
+                                    <div class="bor12 pb-13 flex">
+                                        <div class="size-208"><span class="stext">Subtotal:</span></div>
+                                        <div class="size-209"><span class="mtext">$79.65</span></div>
+                                    </div>
+                                    <div class="bor12 flex pt-15 pb-30">
+                                        <div class="size-208"><span class="stext">Shipping:</span></div>
+                                        <div class="size-209 pr-10">
+                                            <p class="m-0 pt-2 p">There are no shipping methods available. Please double
+                                                check your
+                                                address, or contact us if you need any help.</p>
+                                            <div class="pt-15"><span class="span">Calculate Shipping</span>
+                                                <div class="bor8 mb-12 mt-9"><select class="select" name="" id="">
+                                                        <option>Select a country...</option>
+                                                        <option>USA</option>
+                                                        <option>UK</option>
+
+                                                    </select></div>
+                                                <div class="bor8 mb-12"><input class="input" type="text"
+                                                        placeholder="State /  country"></div>
+                                                <div class="bor8 mb-22"><input class="input" type="text"
+                                                        placeholder="Postcode / Zip"></div>
+                                                <div><button class="update-totals">Update Totals</button></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="flex pt-30 pb-30">
+                                        <div class="size-208"><span class="mtext">Total:</span></div>
+                                        <div class="size-209 pt-1"><span class="mtext">$79.65</span></div>
+                                    </div>
+                                    <button class="checkout">Proceed to Checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <!--  -->
+                </div>
+                <!-- end product-detail  -->
+            </div>
+            <!-- end  -->
+            <footer>
+                <div class="mx-auto-300">
+                    <div class="footer-top">
+                        <div class="categories-footer-top">
+                            <h4>CATEGORIES</h4>
+                            <ul>
+                                <li><a href="">Women</a></li>
+                                <li><a href="">Men</a></li>
+                                <li><a href="">Shoes</a></li>
+                                <li><a href="">Watches</a></li>
+                            </ul>
+                        </div>
+                        <div class="help-footer-top">
+                            <h4>HELP</h4>
+                            <ul>
+                                <li><a href="">Track Order</a></li>
+                                <li><a href="">Returns</a></li>
+                                <li><a href="">Shipping</a></li>
+                                <li><a href="">FAQs</a></li>
+                            </ul>
+                        </div>
+                        <div class="getintouch-footer-top">
+                            <h4>GET IN TOUCH</h4>
+                            <p>Any questions? Let us know in store at 8th floor, 379 Hudson St, New York, NY 10018 or
+                                call us on (+1)
+                                96 716 6879
+                            </p>
+                            <div>
+                                <ul>
+                                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="newsletter-footer-top">
+                            <h4>NEWSLETTER</h4>
+                            <form>
+                                <div class="input-newsletter-footer-top"><input type="text"
+                                        placeholder="email@example.com">
+                                    <span></span>
+                                </div>
+                                <div class="button-newsletter-footer-top"><button>Subscribe</button></div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer-buttom">
+                        <ul>
+                            <li><a href=""><img src="./src/img/asset 26.webp" alt=""></a></li>
+                            <li><a href=""><img src="./src/img/asset 27.webp" alt=""></a></li>
+                            <li><a href=""><img src="./src/img/asset 28.webp" alt=""></a></li>
+                            <li><a href=""><img src="./src/img/asset 29.webp" alt=""></a></li>
+                            <li><a href=""><img src="./src/img/asset 30.webp" alt=""></a></li>
+                        </ul>
+
+                        <p>Copyright ©2022 All rights reserved | This template is made with <i
+                                class="fa-regular fa-heart"></i> by
+                            <a href="https://colorlib.com/">Colorlib</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="end">
+                    <a href="#"><i class="fa-solid fa-angles-up"></i></a>
+                </div>
+            </footer>
+            <!-- end footer -->
+        </div>
+    </div>
+    <script>
+        "use strict";
+
+        const $ = document.querySelector.bind(document);
+        const $$ = document.querySelectorAll.bind(document);
+
+        // scroll header
+        window.addEventListener('scroll', () => {
+            const sub_menu = $('.sub-menu');
+            const menu = $('.menu');
+
+            if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                menu.style.backgroundColor = '#ffffff';
+                menu.style.top = "0";
+                sub_menu.style.padding = '19px 0';
+                menu.style.transition = "all .2s linear";
+            } else {
+                menu.style.top = "40px";
+                menu.style.backgroundColor = 'transparent';
+                sub_menu.style.padding = '23px 0';
+            }
+
+        }); 
+    </script>
+    <script src="./src/js/dark-sun.js"></script>
+</body>
+
+</html>
